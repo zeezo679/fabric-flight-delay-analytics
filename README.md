@@ -60,3 +60,6 @@ Weather attributes included variables such as:
 - Cloud cover
 - Wind speed
 - Weather condition/code
+
+The weather data was integrated to investigate the relationship
+between weather conditions and flight delays.
