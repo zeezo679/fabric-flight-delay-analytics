@@ -21,3 +21,24 @@ The project demonstrates:
 - Data pipelines
 - Pipeline scheduling and monitoring
 - Power BI analytics
+
+## Data Model
+
+The analytical model follows a dimensional modeling approach.
+
+### Dimensions
+
+- `dim_date`
+- `dim_airport`
+- `dim_carrier`
+
+### Fact
+
+- `fact_flights`
+
+### Supporting/Silver Layer
+
+- `silver_flights`
+
+The fact table contains flight-level measures and foreign keys
+to the relevant dimensions.
