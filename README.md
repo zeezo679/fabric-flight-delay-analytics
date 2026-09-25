@@ -63,3 +63,36 @@ Weather attributes included variables such as:
 
 The weather data was integrated to investigate the relationship
 between weather conditions and flight delays.
+
+## Power BI Dashboard
+
+The final reporting layer combines operational, temporal, and weather
+signals into a Power BI dashboard for exploratory analysis and
+executive reporting.
+
+### Dashboard Screenshots
+
+![Power BI overview](powerbi/Temporal_Behavior_Analysis.png)
+
+![Average delay by carrier](powerbi/average_delay_time_per_carrier.png)
+
+![Weather relationship analysis 1](powerbi/weather_relationship_01.png)
+
+![Weather relationship analysis 2](powerbi/weather_relationship_02.png)
+
+### Key Insights
+
+- Delay patterns change significantly across time, suggesting strong
+  seasonality and day-level operational effects.
+- Average delay time varies meaningfully by airline, highlighting
+  differences in operational performance and disruption handling.
+- Weather conditions appear to correlate with increased delays,
+  reinforcing the value of combining operational and environmental
+  data in the analysis.
+- The dashboard helps identify where delays are concentrated, making it
+  easier to prioritize mitigation actions for the most impacted routes,
+  airports, and carriers.
+
+This reporting layer demonstrates how the Fabric pipeline, data model,
+and external weather enrichment work together to generate actionable
+business insights from raw flight data.
