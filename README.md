@@ -43,6 +43,7 @@ The analytical model follows a dimensional modeling approach.
 The fact table contains flight-level measures and foreign keys
 to the relevant dimensions.
 
+![Data Model](screenshots/data-model.png)
 
 ## Weather Integration
 
