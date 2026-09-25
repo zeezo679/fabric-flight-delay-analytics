@@ -42,3 +42,20 @@ The analytical model follows a dimensional modeling approach.
 
 The fact table contains flight-level measures and foreign keys
 to the relevant dimensions.
+
+
+## Weather Integration
+
+Historical weather data was integrated using the Open-Meteo
+Historical Weather API.
+
+Airport coordinates were used to retrieve weather observations
+for the relevant airport and time period.
+
+Weather attributes included variables such as:
+
+- Temperature
+- Precipitation
+- Cloud cover
+- Wind speed
+- Weather condition/code
